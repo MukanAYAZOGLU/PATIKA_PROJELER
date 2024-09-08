@@ -15,7 +15,7 @@
 
 ```
                           9                            Başlangıç=
-                        / 
+                         / 
                        4                               1. Aşama= 9'un z'si=4
                      /   \
                    2       5                           2. Aşama= 4'ün z'si= 2       4'ün y'si= 5
