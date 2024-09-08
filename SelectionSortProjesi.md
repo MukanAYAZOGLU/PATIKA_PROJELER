@@ -2,11 +2,11 @@
 
 ## Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 
-Ham hal:   [22,27,16,2,18,6] = n
-1. Aşama:  [16,22,27,2,18,6] =n-1
-2. Aşama:  [2,16,22,27,18,6] =n-2
-3. Aşama:  [2,16,18,22,27,6] =n-3
-4. Aşama:  [6,2,16,18,22,27] =1
+Ham hal:   [22,27,16,2,18,6]   Big-O  =   n
+1. Aşama:  [16,22,27,2,18,6]   Big-O  =   n-1
+2. Aşama:  [2,16,22,27,18,6]   Big-O  =   n-2
+3. Aşama:  [2,16,18,22,27,6]   Big-O  =   n-3
+4. Aşama:  [6,2,16,18,22,27]   Big-O  =   1
 
 Big-o = [n(n+1)] / 2 = O(n.n) 
 
