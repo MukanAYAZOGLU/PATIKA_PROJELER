@@ -1,1 +1,1 @@
-## BAŞLANGIÇ SEVİYE JAVA İLE VACKEND WEB DEVELOPMENT PATİKASI eğitim sürecinde gerçekleştirilen prjeler/ödevleri barındırır.
+## BAŞLANGIÇ SEVİYE JAVA İLE BACKEND WEB DEVELOPMENT PATİKASI eğitim sürecinde gerçekleştirilen prOjeler/ödevleri barındırır.
