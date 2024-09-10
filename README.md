@@ -1,1 +1,1 @@
-# BAŞLANGIÇ SEVİYE JAVA İLE BACKEND WEB DEVELOPMENT PATİKASI eğitim sürecinde gerçekleştirilen projeleri/ödevleri barındırır.
+# Başlangıç Seviye Java İle Backend Web Development Patikası  eğitim sürecinde gerçekleştirilen projeleri/ödevleri barındırır.
