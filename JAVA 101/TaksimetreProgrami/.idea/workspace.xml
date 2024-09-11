@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3bba03b-48f6-4336-b224-cd81b488208f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaksimetreProgrami.iml" afterDir="false" />
+    <list default="true" id="a3bba03b-48f6-4336-b224-cd81b488208f" name="Changes" comment="Taksimetre Programi (geride kalan) dosyaları eklendi.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +54,28 @@
       <option name="presentableId" value="Default" />
       <updated>1726081602672</updated>
     </task>
+    <task id="LOCAL-00001" summary="Taksimetre Programi dosyaları eklendi.">
+      <option name="closed" value="true" />
+      <created>1726082952301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726082952301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Taksimetre Programi (geride kalan) dosyaları eklendi.">
+      <option name="closed" value="true" />
+      <created>1726083107593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726083107593</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Taksimetre Programi dosyaları eklendi." />
+    <MESSAGE value="Taksimetre Programi (geride kalan) dosyaları eklendi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Taksimetre Programi (geride kalan) dosyaları eklendi." />
   </component>
 </project>
