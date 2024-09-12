@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Main {
@@ -36,16 +37,16 @@ public class Main {
         double kgPatlcn=inp.nextDouble();
 
 
-        System.out.println("Armut için ödenmesi gereken tutar: "+armtKgFiyt*kgArmt+"tl");
-        System.out.println("Elma için ödenmesi gereken tutar: "+elmaKgFiyt*kgElma+"tl");
-        System.out.println("Domates için ödenmesi gereken tutar: "+domatsKgFiyt*kgDomats+"tl");
-        System.out.println("Muz için ödenmesi gereken tutar: "+muzKgFiyt*kgMuz+"tl");
-        System.out.println("Patlıcan için ödenmesi gereken tutar: "+patlcnKgFiyt*kgPatlcn+"tl");
+        System.out.println("Armut için ödenmesi gereken tutar: "+ new DecimalFormat("##.##").format(armtKgFiyt*kgArmt)+"tl");
+        System.out.println("Elma için ödenmesi gereken tutar: "+ new DecimalFormat("##.##").format(elmaKgFiyt*kgElma)+"tl");
+        System.out.println("Domates için ödenmesi gereken tutar: "+ new DecimalFormat("##.##").format(domatsKgFiyt*kgDomats)+"tl");
+        System.out.println("Muz için ödenmesi gereken tutar: "+ new DecimalFormat("##.##").format(muzKgFiyt*kgMuz)+"tl");
+        System.out.println("Patlıcan için ödenmesi gereken tutar: "+ new DecimalFormat("##.##").format(patlcnKgFiyt*kgPatlcn)+"tl");
 
         double tplmTutar=
                 armtKgFiyt*kgArmt+elmaKgFiyt*kgElma+domatsKgFiyt*kgDomats+muzKgFiyt*kgMuz+patlcnKgFiyt*kgPatlcn;
 
-        System.out.print("Toplam ödenmesi gereken tutar: "+ tplmTutar+"tl");
+        System.out.print("Toplam ödenmesi gereken tutar: "+ new DecimalFormat("##.##").format(tplmTutar)+"tl");
 
 
 
