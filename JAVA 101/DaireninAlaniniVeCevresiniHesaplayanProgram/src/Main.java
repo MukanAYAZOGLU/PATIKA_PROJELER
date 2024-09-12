@@ -13,7 +13,7 @@ public class Main {
 
 
         2.Pratik
-        Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı bulan programı yazınız.
+        Yarıçapı r, merkez açısının ölçüsü a olan daire diliminin alanı bulan programı yazınız.
 
         Formül : (𝜋 * (r*r) * a) / 360
          */
