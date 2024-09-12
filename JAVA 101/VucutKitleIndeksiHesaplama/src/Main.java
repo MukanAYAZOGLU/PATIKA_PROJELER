@@ -5,7 +5,7 @@ public class Main {
 
 
         /*
-        Formül
+        Vücut Kitle İndeksi Hesaplama Formülü:
 
         Kilo (kg) / Boy(m) * Boy(m)
          */
