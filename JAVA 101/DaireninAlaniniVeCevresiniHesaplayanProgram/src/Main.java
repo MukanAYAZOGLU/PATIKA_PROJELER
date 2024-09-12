@@ -15,7 +15,7 @@ public class Main {
         2.Pratik
         Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı bulan programı yazınız.
 
-        Formül : (𝜋 * (r*r) * 𝛼) / 360
+        Formül : (𝜋 * (r*r) * a) / 360
          */
 
         Scanner inp= new Scanner(System.in);
