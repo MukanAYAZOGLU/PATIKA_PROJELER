@@ -38,15 +38,6 @@ public class Main {
         System.out.println(aci+" açılı daire diliminin alanı= "+dlmALan);
 
 
-        /*
-        ÖDEV
-
-
-         */
-
-
-
-
 
 
 
