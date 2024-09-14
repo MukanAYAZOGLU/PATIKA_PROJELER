@@ -137,7 +137,6 @@ public class Main {
                         break;
 
                     default:
-                        System.out.println("Hatalı giriş yaptınız. Program sonlandı.");
 
                 }
 
