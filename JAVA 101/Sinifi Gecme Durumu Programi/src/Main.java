@@ -71,15 +71,15 @@ public class Main {
 
         if (avarege >=55) {
 
+            System.out.println("Geçme notu: 55");
             System.out.println("Not ortalamanız: "+avarege+ "Geçtiniz.");
 
-        } else System.out.println("Not ortalamanız: "+avarege+" Kaldınız.");
+        } else {
 
+            System.out.println("Geçme notu: 55");
+            System.out.println("Not ortalamanız: " + avarege + " Kaldınız.");
 
-
-
-
-
+        }
 
 
 
