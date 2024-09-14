@@ -14,6 +14,7 @@ public class Main {
         String newPassword;
         String newPasswordContrl;
         int mistake=1;
+        int mistake2 =1;
 
         char answr;
 
@@ -51,9 +52,11 @@ public class Main {
                                     System.out.println("Şifreniz oluşturulamadı, lütfen başka şifre giriniz.");
 
                                     System.out.print("Yeni şifrenizi giriniz: ");
-                                    newPassword=inp.next();
+                                    newPassword = inp.next();
 
                                     mistake++;
+
+                                }
 
 
                                 if (mistake==3) {
@@ -64,7 +67,7 @@ public class Main {
 
                                 }
 
-                                }
+
 
 
 
@@ -76,8 +79,35 @@ public class Main {
                                     if (newPassword.equals(newPasswordContrl)) {
 
                                         System.out.println("Şifreniz oluşturuldu.");
+
                                     }
-                                }
+
+                                    while (!(newPassword.equals(newPasswordContrl) && mistake2<3)) {
+
+                                        System.out.print("Şifreler uyuşmamaktadır. Tekrar deneyiniz: ");
+                                        newPasswordContrl = inp.next();
+
+                                        mistake2++;
+
+                                    }
+                                    if (mistake2==3) {
+                                        System.out.println("3 kez hatalı giriş gerçekleştirdiniz. Şifre yenileme " +
+                                                "işleminiz. Şifre yenileme işleminiz iftal edilmiştir.");
+                                    }
+
+
+                                        if (newPassword.equals(newPasswordContrl)) {
+
+                                            System.out.println("Şifreniz oluşturuldu.");
+
+                                        }
+
+
+
+
+
+                                    }
+
 
                                 break;
 
