@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        // Girilen 3 sayıyı "küçükten büyüğe" sıralayan programı yazınız.
+        // Girilen 3 sayıyı "büyükten küçüğe" sıralayan programı yazınız.
 
         double num1, num2, num3;
         int sort = 1;
