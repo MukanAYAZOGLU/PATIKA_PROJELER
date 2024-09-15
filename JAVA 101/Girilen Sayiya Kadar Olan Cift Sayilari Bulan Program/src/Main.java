@@ -31,10 +31,9 @@ public class Main {
         System.out.println("Toplamda "+total+" adet çift sayı vardır.");
 
 
-        /*
-        0'dan girilen sayıya kadar olan sayılardan 3 ve 4'e tam bölünen sayıların ortalamasını hesaplayan programı yazınız.
 
-         */
+        //0'dan girilen sayıya kadar olan sayılardan 3 ve 4'e tam bölünen sayıların ortalamasını hesaplayan programı yazınız.
+
 
 
         System.out.println("0 ile "+num+" rakamı arasında bulunup 3 ve 4'e bölünebilen sayılar: ");
