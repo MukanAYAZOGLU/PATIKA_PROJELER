@@ -1,4 +1,3 @@
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -6,10 +5,10 @@ public class Main {
 
         //Kullanıcının girdiği sayıya kadar çift olan sayıları bulan program.
 
-        int num=0;
+        int num;
         int total=0, total2=0;
         int relatedNumbers=0;
-        double average=0;
+        double average;
 
 
         Scanner inp = new Scanner(System.in);
