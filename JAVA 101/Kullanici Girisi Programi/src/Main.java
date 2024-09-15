@@ -9,32 +9,31 @@ public class Main {
         //Kullanıcı şifreyi yenilemek için 3 hakkı var.
 
         String userName = "Java", userEMail = "patika-java@gmail.com", userPassword = "Java123";
-        String userEntr1;
-        String userEntr2;
+        String userEntrNameEMail;
+        String userEntrPassword;
         String newPassword;
         String newPasswordContrl;
-        int mistake=1;
-        int mistake2 =1;
+        int mistake=0;
+        int mistake2 =0;
 
         char answr;
 
         Scanner inp = new Scanner(System.in);
 
         System.out.print("Kullanıcı adınızı veya e-posta adresinizi giriniz: ");
-        userEntr1 = inp.next();
+        userEntrNameEMail = inp.next();
 
-            if (userEntr1.equals(userName) || userEntr1.equals(userEMail)) {
+            if (userEntrNameEMail.equals(userName) || userEntrNameEMail.equals(userEMail)) {
 
                 System.out.print("Kullanıcı şifrenizi giriniz: ");
-                userEntr2 = inp.next();
+                userEntrPassword = inp.next();
 
-                    if (userEntr2.equals(userPassword)) {
+                    if (userEntrPassword.equals(userPassword)) {
 
                         System.out.println("Giriş başarılı.");
+                    }
 
-                    } else System.out.println("Şifreniz hatalı.");
-
-                    if (!(userEntr2.equals(userPassword))) {
+                    else {
 
                         System.out.print("Şifreniz hatalı. Şifrenizi sıfırlamak ister misiniz (E/h): ");
 
@@ -47,29 +46,24 @@ public class Main {
                                 System.out.print("Yeni şifrenizi giriniz: ");
                                 newPassword=inp.next();
 
-                                while(newPassword.equals(userPassword) && mistake<3) {
+                                while(newPassword.equals(userPassword) && mistake<=3) {
 
-                                    System.out.println("Şifreniz oluşturulamadı, lütfen başka şifre giriniz.");
+                                    if (mistake<2) {
 
-                                    System.out.print("Yeni şifrenizi giriniz: ");
-                                    newPassword = inp.next();
+                                        System.out.println("Şifreniz oluşturulamadı, lütfen başka şifre giriniz.");
+
+                                        System.out.print("Yeni şifrenizi giriniz: ");
+                                        newPassword = inp.next();
+                                    }
 
                                     mistake++;
 
-                                }
+                                    if(mistake==3){
 
-
-                                if (mistake==3) {
-
-                                System.out.println("3 kez hatalı giriş gerçekleştirdiniz. Şifre yenileme işleminiz " +
-                                        "iptal" +
-                                        " edilmiştir.");
-
-                                }
-
-
-
-
+                                            System.out.println("3 kez hatalı giriş gerçekleştirdiniz.Şifre yenileme " +
+                                                    "işleminiz iptal edilmiştir.");
+                                        }
+                                    }
 
                                 if (!(newPassword.equals(userPassword))) {
 
@@ -80,34 +74,24 @@ public class Main {
 
                                         System.out.println("Şifreniz oluşturuldu.");
 
+                                        mistake2=3;
+
                                     }
 
-                                    while (!(newPassword.equals(newPasswordContrl) && mistake2<3)) {
+                                    while (!(newPassword.equals(newPasswordContrl)) && mistake2<3) {
 
                                         System.out.print("Şifreler uyuşmamaktadır. Tekrar deneyiniz: ");
                                         newPasswordContrl = inp.next();
 
                                         mistake2++;
 
-                                    }
                                     if (mistake2==3) {
                                         System.out.println("3 kez hatalı giriş gerçekleştirdiniz. Şifre yenileme " +
-                                                "işleminiz. Şifre yenileme işleminiz iftal edilmiştir.");
+                                                "işleminiz iptal edilmiştir.");
+                                    }
                                     }
 
-
-                                        if (newPassword.equals(newPasswordContrl)) {
-
-                                            System.out.println("Şifreniz oluşturuldu.");
-
-                                        }
-
-
-
-
-
                                     }
-
 
                                 break;
 
@@ -116,14 +100,11 @@ public class Main {
                                 break;
 
                             default:
-                                System.out.println("Hatalı tuşlama yaptınız.");
-
+                                System.out.println("Hatalı tuşlama yaptınız. Program sonlandırıldı");
 
                         }
 
-
                     }
-
 
             } else System.out.println("Kullanıcı adınız veya e-postanız hatalı.");
 
