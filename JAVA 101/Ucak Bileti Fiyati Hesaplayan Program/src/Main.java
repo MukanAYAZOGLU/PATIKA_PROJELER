@@ -44,7 +44,6 @@ public class Main {
                     switch (direction) {
 
                         case 1:
-                            //Because of direction (two ways), always add %20 discount.
 
                             if (age < 12) {
 
@@ -67,18 +66,18 @@ public class Main {
 
                             if (age < 12) {
 
-                                amount+=amount * 0.50;
+                                amount-=amount * 0.50;
                                 amount-=amount*0.20;
                                 amount*=2; //Passanger bought two ways, so we multiply the amount bye 2
 
                         } else if (age <= 24) {
-                                amount+=amount * 0.10;
+                                amount-=amount * 0.10;
                                 amount-=amount*0.20;
                                 amount*=2; //Passanger bought two ways, so we multiply the amount bye 2
 
                         } else if (age > 65) {
 
-                                amount+=amount * 0.30;
+                                amount-=amount * 0.30;
                                 amount-=amount*0.20;
                                 amount*=2; //Passanger bought two ways, so we multiply the amount bye 2
 
