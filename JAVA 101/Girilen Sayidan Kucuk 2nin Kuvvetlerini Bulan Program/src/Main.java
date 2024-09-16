@@ -6,7 +6,7 @@ public class Main {
         //Girilen sayıya kadar olan 2'nin kuvvetlerini ekrana yazdıran programı yazıyoruz.
 
         int num, num2;
-        int a=1, b=1, c=1;
+        int a=1;
 
         Scanner scan= new Scanner(System.in);
         
