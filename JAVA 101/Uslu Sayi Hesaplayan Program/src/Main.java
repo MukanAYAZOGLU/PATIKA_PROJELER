@@ -9,7 +9,6 @@ public class Main {
 
         Scanner inp= new Scanner(System.in);
 
-
         System.out.print("Üssü alınacak sayıyı giriniz: ");
         num=inp.nextInt();
 
@@ -19,7 +18,6 @@ public class Main {
         while(increasingNumber<=powOfNum) {
 
             result*=num;
-
 
         increasingNumber++;
         }
@@ -44,9 +42,21 @@ public class Main {
 
         */
 
+        //Math Sınıfı kullanılarak:
 
+        /*
 
+        System.out.print("Üssü alınacak sayıyı giriniz: ");
+        num=inp.nextInt();
 
+        System.out.print("Üs olacak sayıyı giriniz: ");
+        powOfNum=inp.nextInt();
+
+        result= (int)(Math.pow(num,powOfNum));
+
+        System.out.println("Sonuç= "+result);
+
+*/
 
     }
 }
