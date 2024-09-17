@@ -4,21 +4,21 @@ public class Main {
     public static void main(String[] args) {
 
 
-        int num;
-        int fakTotal=1;
+        int firsNum;
+        int fakOfNum=1;
 
         Scanner inp = new Scanner(System.in);
 
         System.out.print("Tam sayınızı giriniz: ");
-        num=inp.nextInt();
+        firsNum=inp.nextInt();
 
-        for (int i = 1; i<=num; i++) {
+        for (int i = 1; i<=firsNum; i++) {
 
-            fakTotal*=i;
+            fakOfNum*=i;
 
         }
 
-        System.out.println("Girmiş olduğunuz "+num+" sayının faktörİyeli= "+fakTotal);
+        System.out.println("Girmiş olduğunuz "+firsNum+" sayının faktöriyeli= "+fakOfNum);
 
         /*
            Kombinasyon hesaplayan program yazınız.
@@ -31,6 +31,43 @@ public class Main {
 
         */
 
+        System.out.print("İlk kümenin eleman sayısını giriniz: ");
+        int nNum= inp.nextInt();
+
+        System.out.print("İlk kümenin elemanları ile oluşturulacak grupların eleman adedini giriniz: ");
+        int rNum= inp.nextInt();
+
+        int fakOfN=1, fakOfR=1, fakOfBothNumbers=1;
+
+        //n'nin faktöriyelinin hesabı:
+
+        for (int i = 1; i<=nNum; i++) {
+
+            fakOfN*=i;
+
+        }
+
+        //r'nin faktöriyelinin hesabı:
+
+        for (int b = 1; b<=rNum ; b++) {
+
+            fakOfR*=b;
+
+        }
+
+        //(n-r)'nin faktöriyelinin hesasabı:
+
+        for (int c = 1; c <=(nNum-rNum) ; c++) {
+
+            fakOfBothNumbers*=c;
+
+        }
+
+        //C(n,r) = n! / (r! * (n-r)!) =
+
+        int kombinasyon=fakOfN/(fakOfR*fakOfBothNumbers);
+
+        System.out.println("N'nin r'li kombinasyonu: C(n,r)= "+kombinasyon);
 
 
 
