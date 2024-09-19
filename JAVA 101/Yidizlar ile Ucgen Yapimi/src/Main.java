@@ -32,7 +32,7 @@ public class Main {
 
         //Döngüler kullanarak yıldızlar ile elmas yapma
 
-        int l=1;
+        int t=1;
 
         for (int i = 1; i <=num ; i++) {
 
@@ -42,12 +42,12 @@ public class Main {
                 
             }
 
-            for (int j = 1; j <=(2*num)-l; j++) {
+            for (int j = 1; j <=(2*num)-t; j++) {
                 System.out.print("*");
 
             }
 
-            l+=2;
+            t+=2;
 
             System.out.println();
             
