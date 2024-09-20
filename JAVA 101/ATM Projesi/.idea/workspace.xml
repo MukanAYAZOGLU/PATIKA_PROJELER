@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b880fb8e-ff90-4c11-875c-d1012e31b23b" name="Changes" comment="Main.java dosyasına, alternatif yöntem olarak switch-case hali eklendi.">
+    <list default="true" id="b880fb8e-ff90-4c11-875c-d1012e31b23b" name="Changes" comment="workspace.xml üzerinde otomatik gerçekleşen (bilinmeyen) değişiklikler.">
       <change afterPath="$PROJECT_DIR$/../Girilen Sayilardan Min. ve Max. Degerleri Bulan Program/Girilen Sayilardan Min. ve Max. Degerleri Bulan Program.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +62,20 @@
       <option name="project" value="LOCAL" />
       <updated>1726762585198</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="workspace.xml üzerinde otomatik gerçekleşen (bilinmeyen) değişiklikler.">
+      <option name="closed" value="true" />
+      <created>1726821318216</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726821318216</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Main.java dosyasına, alternatif yöntem olarak switch-case hali eklendi." />
-    <option name="LAST_COMMIT_MESSAGE" value="Main.java dosyasına, alternatif yöntem olarak switch-case hali eklendi." />
+    <MESSAGE value="workspace.xml üzerinde otomatik gerçekleşen (bilinmeyen) değişiklikler." />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml üzerinde otomatik gerçekleşen (bilinmeyen) değişiklikler." />
   </component>
 </project>
