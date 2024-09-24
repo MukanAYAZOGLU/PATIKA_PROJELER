@@ -9,6 +9,8 @@ public class Main {
     int num=inp.nextInt();
 
 
+
+
     int firsNumber=0, secondNumber=1, cacheNumber;
 
         for (int i = 0; i <=num ; i++) {
