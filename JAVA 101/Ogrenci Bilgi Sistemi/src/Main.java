@@ -6,8 +6,6 @@ public class Main {
         Teacher teach3 = new Teacher("Hunkurt","0536...","BIO");
 
 
-
-
         Course tarih = new Course("Tarih","TRH","TRH");
         tarih.addTeacher(teach);
 
@@ -20,11 +18,13 @@ public class Main {
 
         Student s1 = new Student("Kurtay",123,"4",tarih, fizik, biyoyoloji);
         s1.addBulkExamNote(100,100,50);
+        s1.addBulkQuizNote(80,70,67);
         s1.isPass();
 
 
         Student s2 = new Student("Hazar",213,"4",tarih, fizik, biyoyoloji);
         s2.addBulkExamNote(45,54,50);
+        s1.addBulkQuizNote(50,90,67);
         s2.isPass();
 
 

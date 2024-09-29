@@ -2,11 +2,11 @@ import java.text.DecimalFormat;
 
 public class Student {
 
-    String name;
-    int studentNo;
     Course c1;
     Course c2;
     Course c3;
+    String name;
+    int studentNo;
     String classes;
     double avarage;
     boolean isPass;
@@ -42,12 +42,33 @@ public class Student {
 
         }
 
+    }
+
+    public void addBulkQuizNote(int quiz1, int quiz2, int quiz3) {
+
+        if (quiz1>=0 &&quiz1<=100) {
+            this.c1.quiz=quiz1;
+
+        }
+
+        if (quiz2>=0 &&quiz2<=100) {
+            this.c2.quiz=quiz2;
+
+        }
+
+        if (quiz3>=0 &&quiz3<=100) {
+            this.c3.quiz=quiz3;
+
+        }
+
 
     }
 
 
     void isPass() {
-        this.avarage=(this.c1.note+this.c2.note+this.c3.note)/3.0;
+        this.avarage=((this.c1.note)*0.80+(this.c1.quiz*0.20)+
+                    (this.c1.note)*0.80+(this.c1.quiz*0.20)+
+                    (this.c1.note)*0.80+(this.c1.quiz*0.20))/3;
 
         System.out.println("----------------");
 
@@ -62,10 +83,10 @@ public class Student {
 
     void printNoteInfo() {
 
-        System.out.println(this.c1.name+ " Notu: "+this.c1.note);
-        System.out.println(this.c2.name+ " Notu: "+this.c2.note);
-        System.out.println(this.c3.name+ " Notu: "+this.c3.note);
-        System.out.println("Ortalamanız: "+new DecimalFormat("##.##").format(this.avarage));
+        System.out.println(this.c1.name+ " Notu: \t"+this.c1.note+" Sözlüsü:  \t"+this.c1.quiz);
+        System.out.println(this.c2.name+ " Notu: \t"+this.c2.note+" Sözlüsü:  \t"+this.c2.quiz);
+        System.out.println(this.c3.name+ " Notu: \t"+this.c3.note+" Sözlüsü:  \t"+this.c3.quiz);
+        System.out.println("Ortalamanız: \t"+new DecimalFormat("##.##").format(this.avarage));
     }
 
 
