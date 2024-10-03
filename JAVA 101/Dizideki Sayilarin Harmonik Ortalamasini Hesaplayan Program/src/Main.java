@@ -40,8 +40,6 @@ public class Main {
         }
 
         System.out.println();
-        System.out.println(myArray.length);
-        System.out.println(harmonicSeries);
 
         System.out.println("Dizi elemanlarınızın harmonik ortalaması = "+new DecimalFormat("##.##").format(((double) myArray.length)/harmonicSeries));
 
