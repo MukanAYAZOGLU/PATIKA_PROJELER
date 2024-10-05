@@ -24,12 +24,14 @@ public class Main {
 
         System.out.println("Dizi boyutunuz: "+numberOfElements);
 
-        System.out.print("Dizi elemanlarınız: ");
+        System.out.println("Dizi elemanlarınız: ");
 
         for (int a :myArray ) {
-            System.out.print(a+" ");
-
+            System.out.println(order+". Eleman:\t"+a+" ");
+            order++;
         }
+
+        order=1;
 
         System.out.println();
 
