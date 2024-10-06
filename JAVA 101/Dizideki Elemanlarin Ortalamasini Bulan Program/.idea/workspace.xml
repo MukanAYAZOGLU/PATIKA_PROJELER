@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9179ba8b-378d-4043-b009-687c8c8c1f66" name="Changes" comment="workspace.xml (unknown) changes pushed.">
-      <change afterPath="$PROJECT_DIR$/../Dizideki Sayilarin Harmonik Ortalamasini Hesaplayan Program/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dizideki Sayilarin Harmonik Ortalamasini Hesaplayan Program/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dizideki Sayilarin Harmonik Ortalamasini Hesaplayan Program/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dizideki Sayilarin Harmonik Ortalamasini Hesaplayan Program/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dizideki Sayilarin Harmonik Ortalamasini Hesaplayan Program/Dizideki Sayilarin Harmonik Ortalamasini Hesaplayan Program.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Dizideki Sayilarin Harmonik Ortalamasini Hesaplayan Program/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matris Transpozunu Bulan Program/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matris Transpozunu Bulan Program/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matris Transpozunu Bulan Program/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matris Transpozunu Bulan Program/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matris Transpozunu Bulan Program/Matris Transpozunu Bulan Program.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Matris Transpozunu Bulan Program/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cok Boyutlu Diziler ile A Harfi Yazdiran Program/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cok Boyutlu Diziler ile A Harfi Yazdiran Program/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
