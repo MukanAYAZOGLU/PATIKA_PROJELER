@@ -188,7 +188,7 @@ public class MineSweeper {
 
                 if (i >= 0 && j >= 0 && i  < row && j < column) {
 
-                    if (mineField[i][j].equals("*")) {
+                    if (Objects.equals(mineField[i][j],"*")) {
 
                         roundMines++;
 
@@ -237,7 +237,7 @@ public class MineSweeper {
 
     boolean loserControl() {
 
-        if (mineField[targetRow][targetColumn].equals("*")) {
+        if (Objects.equals(mineField[targetRow][targetColumn],"*")) {
 
             gameField[targetRow][targetColumn]="X";
 
